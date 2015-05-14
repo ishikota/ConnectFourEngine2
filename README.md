@@ -1,18 +1,19 @@
 # ConnectFourEngine2
 Improved ConnectFour engine with fast algorithms.
 =============================
-This is a free ConnectFour engine written in Python.
-This engine implmented bitboard and move ordering algorithm.
+This is a free ConnectFour engine written in Python.  
+This engine implmented bitboard and move ordering algorithm.  
 
-You can play with two kinds of computer programs,
-1. MiniMax - use MiniMax algorithm with Alpha-Beta Pruning and Move Ordering.
-2. UCT MCTS - use MonteCarloTreeSearch algorithm with UCT algorithm.
+You can play with two kinds of computer programs,  
+1. MiniMax - use MiniMax algorithm with Alpha-Beta Pruning and Move Ordering.  
+2. UCT MCTS - use MonteCarloTreeSearch algorithm with UCT algorithm.  
 
 Set up and Run script
 --------
 First, download ConnectFour project file and change dicectory to ConnectFour/src/ui.
 Here, we assume that you cloned ConnectFour project to your HOME directory.
-Then run vs.py script.
+Then run vs.py script.  
+**Do not forget to change you directory to `ConnectFour/src/ui` before run script. (It will cause some error.)**  
 ```
 cd $HOME/ConnectFour/src/ui
 python vs.py
