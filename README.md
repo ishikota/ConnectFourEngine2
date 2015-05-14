@@ -2,7 +2,9 @@
 Improved ConnectFour engine with fast algorithms.
 =============================
 This is a free ConnectFour engine written in Python.  
-This engine implmented bitboard and move ordering algorithm.  
+This engine implmented bitboard and move ordering algorithm.
+
+But **this engine is in progress**, completed version is [here](https://github.com/ishikota/ConnectFourEngine "Connect Four Engine").
 
 You can play with two kinds of computer programs,  
 1. MiniMax - use MiniMax algorithm with Alpha-Beta Pruning and Move Ordering.  
@@ -42,18 +44,34 @@ If you input 3, then computer thinking time is set to 3 seconds
 
 Start ConnectFour !!
 --------
-Input the number of column you want to make a move (from 1 to 7) !!
+
+Current board state will be displayed in each turn.  
+```
+   - - - - X - - 
+   - - - - O - - 
+   - - - - O - - 
+   - - - O X - - 
+   - X - X O - - 
+   - O X O X - - 
+   1 2 3 4 5 6 7 
+```
+  
+Each square state is represented by three character.  
+  
+1. O : First player  
+2. X : Second player  
+3. - : Empty square  
+
+You make a move by input the number of column you want to make a move (from 1 to 7) !!  
 
 And if you want to finish the game, input 0 as your input like below.
 ```
---- TURN [ FIRST PLAYER (O) ] ---
+--- TURN [ FIRSTPLAYER (O) ] ---
 INPUT > 
 0
 > ARE YOU SURE TO QUIT THE GAME? (y/n)
 y
-BEST MOVES : [-1]
 > FINISH THE GAME
 ```
-
 Enjoy ConnectFour !!
 
